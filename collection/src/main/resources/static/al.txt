@@ -1,0 +1,12 @@
+The important points about Java ArrayList class are:
+Java ArrayList class can contain duplicate elements.
+Java ArrayList class maintains insertion order.
+Java ArrayList class is non synchronized.
+Java ArrayList allows random access because array works at the index basis.
+In ArrayList, manipulation is little bit slower than the LinkedList in Java because a lot of shifting needs to occur if any element is removed from the array list.
+Hierarchy of ArrayList class
+As shown in the above diagram, Java ArrayList class extends AbstractList class which implements List interface. The List interface extends the Collection and Iterable interfaces in hierarchical order.
+ArrayList class declaration
+Let's see the declaration for java.util.ArrayList class.
+1.	public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, Serializable
+
